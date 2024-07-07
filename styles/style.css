@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  margin: ;
+  padding: ;
+  box-sizing: border-box;
+}
+
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* ........... shared style here............. */
+.text-primary{
+
+    color:#FD6E0A ;
+}
+.btn-primary{
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;}
+
+  .bg-color{
+
+background-color:  #FFF8F3;
+  }
+/* ..................shared style end................... */
+
+.header{ 
+  background-color:  #FFF8F3;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+
+  /* ...........navbar............ */
+  nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin:0 220px ;
+
+  }
+  .nav-title{
+    font-size:45px;
+
+    font-weight: 800;
+  }
+  nav>ul{
+    display: flex;
+    align-items: center;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 50px;
+  }
+  nav ul li a{
+    text-decoration: none;
+
+  }
+/* ..................banner   .................. */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 585px;
+    height:356px;
+    margin: 0 38px 0 230px;
+
+}
+.banner-greeting{
+    font-size:45px ;
+    font-weight: 600;
+}
+.banner-title{
+    font-size:85px ;
+    font-weight:800;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+/* .............. about section start.......  */
+.about-section{
+margin: 34px 220px;
+text-align: center;
+padding: 150px;
+
+}
+.about-section h1 {
+  font-weight: 900px;
+  font-size:35px ;
+
+}
+.about-information{
+   display: flex;
+
+  justify-content: center;
+  gap: 50px;
+  margin-top:30px ;
+}
+.about-container{
+  background-color:white ;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/* ...................about section end.................. */
+
+/* ................experience section start */
