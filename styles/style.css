@@ -150,9 +150,10 @@ padding: 150px;
 .footer-content{
   display: flex;
   padding: 100px 150px 130px 150px;
-   justify-content: space-between;
+   justify-content: space-between; margin-top: 110px;
 }
 .footer-content input[type=text]{height: 50px; width:100%;
 
 
 }
+.submit-btn{ margin-top:10px;}
